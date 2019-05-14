@@ -1,0 +1,23 @@
+.ubicacion{
+    background-image: url("../img/location.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top 15px;
+    background-color: #2F628D;
+}
+
+.fidelidad{
+    background-image: url("../img/fidelidad.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2F628D;
+}
+
+.facturacion{
+    background-image: url("../img/facturacion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top 15px;
+    background-color: #2F628D;
+
+}

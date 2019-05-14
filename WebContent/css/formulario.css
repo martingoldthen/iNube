@@ -1,0 +1,194 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+
+.whitetype{
+    color:#504E46;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.iti-flag {background-image: url("../resources/intl-tel-input-12.0.0/build/img/flags.png");}
+
+@media  only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2),
+        only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+        .iti-flag {background-image: url("../resources/intl-tel-input-12.0.0/build/img/flags@2x.png");}
+}
+
+
+select{
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 300px;
+    padding-bottom: 5px;
+    font-size: 85%;
+}
+
+#barra_arriba{
+    position: fixed;
+    background-color: #003042;
+    padding-top: 4px;
+    border-top: 0;
+    z-index: 100;
+    width: inherit;
+    height: 80px;
+    float: left;
+    padding-left: 8px;
+}
+
+#foto{
+    height: inherit;
+    padding-bottom: 2px;
+}
+
+#cuerpo{
+    padding-top: 5px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+body{
+    background-color: #F7F5F7;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 ;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    color:#504E46;
+}
+
+
+h1{
+    font-family: 'Lato', sans-serif;
+    color:#504E46;
+    font-weight: normal;
+    font-size: 180%;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+       color:#504E46;
+       font-weight: normal;
+    font-size: 180%;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    color:#504E46;
+    font-weight: normal;
+    font-size: 180%;
+    margin-left: 10px;
+}
+
+
+p{
+    font-family: 'Lato', sans-serif;
+    color:#504E46;
+    font-size: 140%;
+
+}
+
+fieldset{
+    border-color:  #003042 ;
+    border-radius: 15px;
+}
+
+
+input{
+    background-color: inherit;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom-color:  #003042;
+    border-width: thin;
+    margin: 0 auto;
+    font-size: 90%;
+    max-width: 750px;
+    color: #504E46;
+}
+
+#phone{
+    width: 83%;
+}
+
+
+.boton_enviar {
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	box-shadow:inset 0px 1px 0px 0px #036e86;
+	background:linear-gradient(to bottom, #03374b 5%, #031a27 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#550F51', endColorstr='#470c44',GradientType=0);
+	background-color:#036e86;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:10px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Lato;
+	font-size:20px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #036e86;
+}
+
+
+.boton_enviar:hover {
+	background:linear-gradient(to bottom, #031a27 5%, #03374b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#550F51',GradientType=0);
+	background-color:#03374b;
+}
+.boton_enviar:active {
+	position:relative;
+	top:1px;
+}
+
+
+
